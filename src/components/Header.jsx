@@ -29,6 +29,7 @@ export default function Header() {
         <Link to="/part4" onClick={() => setOpen(false)}>Phần 4</Link>
         <Link to="/part5" onClick={() => setOpen(false)}>Phần 5</Link>
         <Link to="/part6" onClick={() => setOpen(false)}>Phần 6</Link>
+        <Link to="/part7" onClick={() => setOpen(false)}>AI hỗ trợ học tập</Link>
         <Link to="/review" onClick={() => setOpen(false)}>Ôn tập kiến thức</Link>
       </nav>
     </>

@@ -11,83 +11,93 @@ export default function Home() {
       <Header />
 
       {/* HERO / BANNER */}
-      <section className="hero" style={{ backgroundImage: `url(${bg1})` }}>
-        <div className="hero-content">
-          <div className="hero-dots-top">
-            <span></span>
-            <span></span>
-            <span></span>
+      <section className="hero-modern" style={{ backgroundImage: `url(${bg1})` }}>
+        <div className="hero-overlay"></div>
+        <div className="hero-content-modern">
+          <div className="hero-badge">
+            <div className="badge-icon">🏛️</div>
+            <div className="badge-text">
+              <p className="text-xs md:text-sm tracking-wider">ĐẢNG CỘNG SẢN VIỆT NAM</p>
+              <p className="text-xs md:text-sm font-bold">ĐẠI HỘI VIII</p>
+            </div>
           </div>
 
-          <div className="hero-subtitle">
-            <p>ĐẢNG CỘNG SẢN VIỆT NAM</p>
-            <p>ĐẠI HỘI VIII</p>
-          </div>
-
-          <h1 className="hero-title">ĐẠI HỘI VIII</h1>
-
-          <div className="hero-line"></div>
-
-          <div className="hero-dots-bottom">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+          <h1 className="hero-title-modern">ĐẠI HỘI VIII</h1>
+          
+          <div className="hero-underline"></div>
         </div>
       </section>
 
-      {/* HÀNH TRÌNH LỊCH SỬ (dùng bg2) */}
-      <section className="history" style={{ backgroundImage: `url(${bg2})` }}>
-        <div className="history-inner">
-          <h2>HÀNH TRÌNH LỊCH SỬ</h2>
+      {/* HÀNH TRÌNH LỊCH SỬ */}
+      <section className="journey-section" style={{ backgroundImage: `url(${bg2})` }}>
+        <div className="journey-overlay"></div>
+        <div className="journey-container">
+          <h2 className="journey-title">
+            HÀNH TRÌNH LỊCH SỬ
+            <span className="title-accent">✦</span>
+          </h2>
 
-          <div className="card-list">
-            <Link to="/part1" className="card blue">
-              <h3>PHẦN 1</h3>
-              <p className="card-subtitle">BỐI CẢNH VÀ ĐẠI HỘI VIII</p>
-              <p className="card-desc">Sau 10 năm Đổi mới, dự thảo từng bước trở thành hiện thực với những đặc thù riêng. Hậu Đổi mới.</p>
+          <div className="journey-grid">
+            <Link to="/part1" className="journey-card">
+              <div className="card-number">PHẦN 1</div>
+              <h3 className="card-title">BỐI CẢNH VÀ<br/>ĐẠI HỘI VIII</h3>
+              <p className="card-description">
+                Sau 10 năm Đổi mới, Đại hội VIII mở ra bước ngoặt của Đảng trong việc xác định phương hướng phát triển đất nước.
+              </p>
             </Link>
 
-            <div className="card blue">
-              <h3>PHẦN 2</h3>
-              <p className="card-subtitle">TỔNG KẾT ĐỔI MỚI VÀ ĐỊNH HƯỚNG CÔNG NGHIỆP HÓA, HIỆN ĐẠI HÓA</p>
-              <p className="card-desc">Từ 10 năm Đổi mới (1986–1996), những cải cách sâu sắc học, kinh nghiệm từ Đại hội VIII về công nghiệp hóa, hiện đại hóa, năng lực cạnh tranh.</p>
-            </div>
+            <Link to="/part2" className="journey-card">
+              <div className="card-number">PHẦN 2</div>
+              <h3 className="card-title">TỔNG KẾT ĐỔI MỚI VÀ ĐỊNH HƯỚNG CÔNG NGHIỆP HÓA, HIỆN ĐẠI HÓA</h3>
+              <p className="card-description">
+                Từ 10 năm Đổi mới (1986–1996), Đảng đã rút ra những kinh nghiệm quý báu về công nghiệp hóa, hiện đại hóa đất nước.
+              </p>
+            </Link>
+            
+            <Link to="/part3" className="journey-card">
+              <div className="card-number">PHẦN 3</div>
+              <h3 className="card-title">PHÁT TRIỂN KINH TẾ VÀ NHỮNG KẾT QUẢ THỰC TIỄN</h3>
+              <p className="card-description">
+                Sau Đại hội VIII, đường lối phát triển kinh tế từ lý thuyết được hiện thực hóa qua các chính sách phát triển bền vững đến năm 2000.
+              </p>
+            </Link>
 
-            <div className="card blue">
-              <h3>PHẦN 3</h3>
-              <p className="card-subtitle">PHÁT TRIỂN KINH TẾ VÀ NHỮNG KẾT QUẢ THỰC TIỄN</p>
-              <p className="card-desc">Sau Đại hội VIII, đường lối phát triển kinh tế từ lý thuyết hiện thực hóa được với các chính sách hợp lý về tài chính, tài nguyên, năng lực cạnh tranh năm 2000.</p>
-            </div>
+            <Link to="/part4" className="journey-card">
+              <div className="card-number">PHẦN 4</div>
+              <h3 className="card-title">XÂY DỰNG VÀ HOÀN THIỆN NHÀ NƯỚC PHÁP QUYỀN XÃ HỘI CHỦ NGHĨA</h3>
+              <p className="card-description">
+                Quá trình xây dựng Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam đã có những bước tiến quan trọng về thể chế và pháp luật.
+              </p>
+            </Link>
 
-            <div className="card blue">
-              <h3>PHẦN 4</h3>
-              <p className="card-subtitle">XÂY DỰNG VÀ HOÀN THIỆN NHÀ NƯỚC PHÁP QUYỀN THEO NGUYÊN SÁC CHỦ NGHĨA</p>
-              <p className="card-desc">Quá trình xây dựng Nhà nước Công hoa CHXHCN Việt Nam chiến lược hoàn thiện từ các quy chế ổn định pháp lý thực hành những cơ chế mới của nước.</p>
-            </div>
+            <Link to="/part5" className="journey-card">
+              <div className="card-number">PHẦN 5</div>
+              <h3 className="card-title">CÔNG TÁC CÁN BỘ VÀ XÂY DỰNG, CHỈNH ĐỐN ĐẢNG</h3>
+              <p className="card-description">
+                Sau Đại hội VIII, Đảng đã có những bước đi đổi mới về công tác cán bộ, chỉnh đốn tổ chức và kỷ luật Đảng.
+              </p>
+            </Link>
 
-            <div className="card blue">
-              <h3>PHẦN 5</h3>
-              <p className="card-subtitle">CÔNG TÁC CÁN BỘ VÀ XÂY DỰNG, CHỈNH ĐỐN ĐẢNG</p>
-              <p className="card-desc">Sau Đại hội VIII, Đảng có công lao với các cán bộ về vấn đề lý thuyết, chỉnh đốn Đảng về tổ chức cán bộ kỷ luật và ứng dụng cơ cấu lãnh đạo Đảng.</p>
-            </div>
-
-            <div className="card blue">
-              <h3>PHẦN 6</h3>
-              <p className="card-subtitle">HỆ THỐNG CHÍNH TRỊ, DÂN CHỦ VÀ PHÁT TRIỂN CON NGƯỜI</p>
-              <p className="card-desc">Sau Đại hội VIII, Đảng cho hướng hành động lâm dâm để nhìn thấy - phát triển với vai trò lãnh đạo của Đảng, từng chính sách xã hội về bảo vệ nước.</p>
-            </div>
+            <Link to="/part6" className="journey-card">
+              <div className="card-number">PHẦN 6</div>
+              <h3 className="card-title">HỆ THỐNG CHÍNH TRỊ, DÂN CHỦ VÀ PHÁT TRIỂN CON NGƯỜI</h3>
+              <p className="card-description">
+                Sau Đại hội VIII, Đảng đã đề ra những định hướng phát triển hệ thống chính trị và xây dựng văn hóa con người Việt Nam.
+              </p>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* ÔN TẬP KIẾN THỨC (dùng bg3) */}
-      <section className="review" style={{ backgroundImage: `url(${bg3})` }}>
-        <div className="review-inner">
-          <h2>ÔN TẬP KIẾN THỨC</h2>
-          <div className="review-content">
-            <p>Phần này giúp ôn tập lại những kiến thức quan trọng từ các phần trước.</p>
-          </div>
+      {/* ÔN TẬP KIẾN THỨC */}
+      <section className="review-modern" style={{ backgroundImage: `url(${bg3})` }}>
+        <div className="review-overlay"></div>
+        <div className="review-container">
+          <h2 className="review-title-modern">ÔN TẬP KIẾN THỨC</h2>
+          <Link to="/review" className="review-button">
+            <span>Bắt đầu ôn tập</span>
+            <span className="arrow">→</span>
+          </Link>
         </div>
       </section>
 
