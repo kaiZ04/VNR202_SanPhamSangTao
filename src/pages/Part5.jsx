@@ -136,7 +136,7 @@ export default function Part5() {
           >
             <div className="absolute inset-0 bg-black/40"></div>
             <h2 className="text-2xl md:text-3xl font-black text-white text-center relative z-10">
-              CÔNG TẠC XÂY DỰNG ĐẢNG [1997 - 1999]
+              CÔNG TÁC XÂY DỰNG ĐẢNG [1997 - 1999]
             </h2>
           </div>
         </div>
@@ -157,21 +157,21 @@ export default function Part5() {
                 <img src="/assets/images/part5_khaphieu.png" alt="Lê Khả Phiêu" className="w-full h-full object-cover" />
               </div>
               <p className="text-center">
-                Hội nghị Trung ương 4 khóa VIII (1997) báo cáo Lê Khả Phiêu làm Tổng Bí thư.
+                Hội nghị Trung ương 4 khóa VIII (1997) bầu Lê Khả Phiêu làm Tổng Bí thư.
               </p>
             </div>
 
             {/* Card 3 */}
             <div className="bg-[#fad20c] rounded-3xl p-6 text-gray-900 font-bold text-sm leading-tight min-h-[160px] flex flex-col items-center justify-center">
               <p className="text-center">
-                Hội nghị Trung ương 6 (lần 2) khóa VIII (1998) ban hành Nghị quyết 10-NQ/TW về các vấn đề cơ bản trong xây dựng Đảng.
+                Hội nghị Trung ương 6 (lần 2) khóa VIII (1999) ban hành Nghị quyết 10-NQ/TW về các vấn đề cấp bách trong xây dựng Đảng.
               </p>
             </div>
 
             {/* Card 4 */}
             <div className="bg-[#fad20c] rounded-3xl p-6 text-gray-900 font-bold text-sm leading-tight min-h-[160px] flex flex-col items-center justify-center">
               <p className="text-center">
-                Trong lâm: tư phê bình và phê bình, nâng cao sức chiến đấu của Đảng.
+                Trọng tâm: tự phê bình và phê bình, nâng cao sức chiến đấu của Đảng.
               </p>
             </div>
           </div>
