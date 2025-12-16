@@ -65,6 +65,7 @@ export default function Part4() {
       <Header />
       <div className="page-container">
         <div className="part4-header">
+          <div className="part4-badge">PHẦN 4</div>
           <h1 className="part4-main-title">Xây dựng và hoàn thiện nhà nước pháp quyền xã hội chủ nghĩa Việt Nam</h1>
           <p className="part4-subtitle">QUÁ TRÌNH XÂY DỰNG VÀ HOÀN THIỆN NHÀ NƯỚC CHXHCN VIỆT NAM</p>
         </div>

@@ -6,6 +6,7 @@ import part7_1 from '../assets/images/part7_1.png'
 import part7_2 from '../assets/images/part7_2.png'
 import part7_3 from '../assets/images/part7_3.png'
 import part7_4 from '../assets/images/part7_4.png'
+import aiEducation from '../assets/images/tri_tue_nhan_tao_ai_trong_giao_duc.png'
 
 export default function Part7() {
   return (
@@ -22,7 +23,9 @@ export default function Part7() {
                 TRỢ HỌC TẬP
               </p>
             </div>
-            <div className="bg-[#e92b2b] rounded-3xl min-h-[280px]"></div>
+            <div className="bg-[#e92b2b] rounded-3xl min-h-[280px] overflow-hidden">
+              <img src={aiEducation} alt="AI Hỗ trợ Học tập" className="w-full h-full object-cover" />
+            </div>
           </div>
 
           {/* Yellow Info Box */}

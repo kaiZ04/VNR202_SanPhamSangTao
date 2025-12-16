@@ -33,6 +33,7 @@ export default function Home() {
         <div className="journey-overlay"></div>
         <div className="journey-container">
           <h2 className="journey-title">
+            <span className="title-accent">✦</span>
             HÀNH TRÌNH LỊCH SỬ
             <span className="title-accent">✦</span>
           </h2>
@@ -42,7 +43,7 @@ export default function Home() {
               <div className="card-number">PHẦN 1</div>
               <h3 className="card-title">BỐI CẢNH VÀ<br/>ĐẠI HỘI VIII</h3>
               <p className="card-description">
-                Sau 10 năm Đổi mới, Đại hội VIII mở ra bước ngoặt của Đảng trong việc xác định phương hướng phát triển đất nước.
+                Sau 10 năm Đổi mới, Đại hội VIII (1996) của Đảng đánh dấu việc xác định mục tiêu cho giai đoạn phát triển mới của đất nước.
               </p>
             </Link>
 
@@ -50,7 +51,7 @@ export default function Home() {
               <div className="card-number">PHẦN 2</div>
               <h3 className="card-title">TỔNG KẾT ĐỔI MỚI VÀ ĐỊNH HƯỚNG CÔNG NGHIỆP HÓA, HIỆN ĐẠI HÓA</h3>
               <p className="card-description">
-                Từ 10 năm Đổi mới (1986–1996), Đảng đã rút ra những kinh nghiệm quý báu về công nghiệp hóa, hiện đại hóa đất nước.
+                Từ 10 năm Đổi mới (1986–1996), Đảng rút ra sáu bài học kinh nghiệm và Đại hội VIII đề ra các quan điểm cơ bản về công nghiệp hóa, hiện đại hóa đất nước trong thời kỳ mới.
               </p>
             </Link>
             
@@ -58,7 +59,7 @@ export default function Home() {
               <div className="card-number">PHẦN 3</div>
               <h3 className="card-title">PHÁT TRIỂN KINH TẾ VÀ NHỮNG KẾT QUẢ THỰC TIỄN</h3>
               <p className="card-description">
-                Sau Đại hội VIII, đường lối phát triển kinh tế từ lý thuyết được hiện thực hóa qua các chính sách phát triển bền vững đến năm 2000.
+                Sau Đại hội VIII, đường lối phát triển kinh tế được triển khai đồng bộ với các nhiệm vụ, giải pháp trọng tâm và đạt nhiều kết quả nổi bật đến năm 2000.
               </p>
             </Link>
 
@@ -66,7 +67,7 @@ export default function Home() {
               <div className="card-number">PHẦN 4</div>
               <h3 className="card-title">XÂY DỰNG VÀ HOÀN THIỆN NHÀ NƯỚC PHÁP QUYỀN XÃ HỘI CHỦ NGHĨA</h3>
               <p className="card-description">
-                Quá trình xây dựng Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam đã có những bước tiến quan trọng về thể chế và pháp luật.
+                Quá trình xây dựng Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam đặt ra ba yêu cầu lớn, cùng các nhiệm vụ và giải pháp nhằm nâng cao hiệu lực, hiệu quả hoạt động của bộ máy nhà nước.
               </p>
             </Link>
 
@@ -74,7 +75,7 @@ export default function Home() {
               <div className="card-number">PHẦN 5</div>
               <h3 className="card-title">CÔNG TÁC CÁN BỘ VÀ XÂY DỰNG, CHỈNH ĐỐN ĐẢNG</h3>
               <p className="card-description">
-                Sau Đại hội VIII, Đảng đã có những bước đi đổi mới về công tác cán bộ, chỉnh đốn tổ chức và kỷ luật Đảng.
+                Sau Đại hội VIII, Đảng coi công tác cán bộ và xây dựng, chỉnh đốn Đảng là then chốt, nhằm xây dựng đội ngũ cán bộ có đức, có tài, gắn bó với nhân dân và nâng cao sức chiến đấu, vai trò lãnh đạo của Đảng trong thời kỳ CNH–HĐH.
               </p>
             </Link>
 
@@ -82,7 +83,7 @@ export default function Home() {
               <div className="card-number">PHẦN 6</div>
               <h3 className="card-title">HỆ THỐNG CHÍNH TRỊ, DÂN CHỦ VÀ PHÁT TRIỂN CON NGƯỜI</h3>
               <p className="card-description">
-                Sau Đại hội VIII, Đảng đã đề ra những định hướng phát triển hệ thống chính trị và xây dựng văn hóa con người Việt Nam.
+                Sau Đại hội VIII, Đảng chú trọng kiện toàn bộ máy chính trị, mở rộng dân chủ, coi giáo dục – đào tạo, khoa học – công nghệ và văn hóa là nền tảng, động lực quan trọng cho phát triển bền vững đất nước.
               </p>
             </Link>
           </div>

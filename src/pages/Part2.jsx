@@ -1,156 +1,94 @@
 import Header from '../components/Header'
 
 export default function Part2() {
-  const notes = [
+  const timelineItems = [
+    "Kinh tế đạc lập, làm chủ với CHXH, đạo lý, vững vàng dân tộc và ổn định chủ quyền quốc gia Đảng.",
+    "Đổi mới toàn diện những cơ trọng lĩnh vực theo mục tiêu và lộ trình trong tâm.",
+    "Phát triển kinh tế hồi thị trường xã hội, quản lý chuyền sâu theo những bước hiện tại vì, công pháp an ninh quốc.",
+    "Phát huy dân chủ kết toàn diện vào lực, nền mạnh cảnh cần.",
+    "Mở rộng hợp tác quốc tế, kết hợp sức mạnh dân tộc với sức mạnh thời đại."
+  ]
+
+  const strategyPoints = [
     {
       id: 1,
-      description: "Giữ vững mục tiêu độc lập dân tộc & CNXH, nắm vững hai nhiệm vụ chiến lược xây dựng & bảo vệ Tổ quốc, kiên trì chủ nghĩa Mác–Lênin, tư tưởng HCM.",
-      rotation: -3,
-      delay: 0,
+      text: "Giữ vững mục tiêu, độc lập dân tộc và CNXH, nắm vững hai nhiệm vụ chiến lược xây dựng và bảo vệ Tổ quốc, kiên trì chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh.",
     },
     {
       id: 2,
-      description: "Kết hợp đổi mới kinh tế với đổi mới chính trị; lấy đổi mới kinh tế làm trọng tâm, đồng thời từng bước đổi mới chính trị.",
-      rotation: 2,
-      delay: 1,
+      text: "CNHH tạo nghề phải giúp quan toán dân chủ, công mạng thâm phá trạch liên xử trong đổi khuân nóng của Nhà nước giải vọt.",
     },
     {
       id: 3,
-      description: "Phát triển kinh tế hàng hoá nhiều thành phần theo cơ chế thị trường có quản lý của Nhà nước, định hướng XHCN. Gắn tăng trưởng với tiến bộ & công bằng xã hội, giữ gìn bản sắc văn hoá, bảo vệ môi trường.",
-      rotation: -2,
-      delay: 2,
+      text: "Con người là yếu tố cơ bản của phát triển nhanh và bền vững.",
     },
     {
       id: 4,
-      description: "Mở rộng và tăng cường khối đại đoàn kết toàn dân, phát huy sức mạnh của cả dân tộc.",
-      rotation: 3,
-      delay: 3,
+      text: "Khoa học – công nghệ là động lực then chốt, kết hợp truyền thống dân tộc với ứng dụng kỹ thêm hiện đại ủ khóa quyết định.",
     },
     {
       id: 5,
-      description: "Mở rộng hợp tác quốc tế, tranh thủ sự đồng tình, ủng hộ và giúp đỡ của nhân dân thế giới, kết hợp sức mạnh của dân tộc với sức mạnh thời đại.",
-      rotation: -1,
-      delay: 4,
+      text: "Lấy hiệu quả kinh tế - xã hội làm tiêu chuẩn Lựa chọn phương án phát triển và cộng nghệ.",
     },
     {
       id: 6,
-      description: "Tăng cường vai trò lãnh đạo của Đảng, coi xây dựng Đảng là nhiệm vụ then chốt.",
-      rotation: 2,
-      delay: 5,
+      text: "Kết hợp phát triển kinh tế với quốc phòng, an ninh, bảo đảm độc lập, chủ quyền và phúc lợi - an ninh.",
     },
   ]
 
   return (
     <>
       <Header />
-      <div className="page-container">
-        <div className="part-header">
-          <span className="part-label">ĐẠI HỘI VIII</span>
-          <h1 className="part-title">TỔNG KẾT 10 NĂM ĐỔI MỚI (1986-1996)</h1>
+      <div className="part2-modern-container">
+        {/* Header Section */}
+        <div className="part2-header-section">
+          <div className="part2-badge">PHẦN 2</div>
+          <h1 className="part2-main-title">Tổng kết 10 năm Đổi mới (1986-1996)</h1>
         </div>
 
-        {/* Yellow intro box */}
-        <section className="intro-section yellow-bg">
-          <p>Sơ 10 năm Đổi mới, đất nước trải qua những bước tiến lớn về tất cả lĩnh vực kinh tế, chính trị, xã hội, văn hóa. Đất nước từ tình trạng khó khăn trở nên có những thành tựu đáng kể, đặc biệt là những dấu hiệu khả quan trong phát triển kinh tế hàng năm, năm này năm kia, có những con số tốt về GDP phát triển, có những mục tiêu rõ rằng đang được thực hiện trên toàn quốc.</p>
-        </section>
+        {/* Summary Box */}
+        <div className="part2-summary-box">
+          <p>
+            Sau 10 năm Đổi mới, đất nước đã đạt những thành tựu to lớn về mọi lĩnh vực kinh tế – xã hội nhờ đường lối đúng đắn của Đảng, sự nỗ lực phấn đấu của toàn dân tộc. Đất nước từ khó khăn đã có những chuyển biến tích cực, mở ra một thời kỳ mới đầy hy vọng và phát triển.</p>
+        </div>
 
-        {/* Timeline section */}
-        <section className="timeline-section">
-          <h2>Những thay đổi chính trong 10 năm Đổi mới</h2>
+        {/* Timeline Section */}
+        <div className="part2-timeline-wrapper">
+          <div className="part2-timeline-line"></div>
           
-          <div className="timeline-container">
-            <div className="timeline-row">
-              <div className="timeline-item left">
-                <div className="timeline-box">
-                  <p>Kiến thức lịch sử ban đầu gồi liên liên với CHNN, và sự độc lập các công Đảng.</p>
-                </div>
+          {timelineItems.map((item, index) => (
+            <div key={index} className={`part2-timeline-item ${index % 2 === 0 ? 'left' : 'right'}`}>
+              <div className="part2-timeline-dot"></div>
+              <div className="part2-timeline-card">
+                {item}
               </div>
-              <div className="timeline-dot"></div>
             </div>
+          ))}
+        </div>
 
-            <div className="timeline-row">
-              <div className="timeline-item right">
-                <div className="timeline-box">
-                  <p>Độ mở ban đầu của sở dân sàn chủng hữu ích trên Trung tâm.</p>
-                </div>
-              </div>
-              <div className="timeline-dot"></div>
-            </div>
+        {/* Divider */}
+        <div className="part2-section-divider"></div>
 
-            <div className="timeline-row">
-              <div className="timeline-item left">
-                <div className="timeline-box">
-                  <p>Phát triển kinh tế khi nâng một sì nét ở nước ngoài trong những khả năng hợp tác thương mại lên, công bằng có hộ.</p>
-                </div>
-              </div>
-              <div className="timeline-dot"></div>
-            </div>
-
-            <div className="timeline-row">
-              <div className="timeline-item right">
-                <div className="timeline-box">
-                  <p>Phát huy độc lập khi toàn diện vào vấc nạn mặc cảnh can.</p>
-                </div>
-              </div>
-              <div className="timeline-dot"></div>
-            </div>
-
-            <div className="timeline-row">
-              <div className="timeline-item left">
-                <div className="timeline-box">
-                  <p>Mở rộng hợp tác quốc tế, kêu gọi sáng tạo chuyên môn của dân tộc chúng tôi.</p>
-                </div>
-              </div>
-              <div className="timeline-dot"></div>
-            </div>
-          </div>
-        </section>
-
-        <div className="timeline-divider"></div>
-
-        {/* Development strategy section - Sticky notes style */}
-        <section className="strategy-section">
-          <div className="text-center mb-12">
-            <h2 className="strategy-title">Quan điểm công nghiệp hóa - hiện đại hóa thời kỳ mới (Đại hội VIII)</h2>
-            
-            <div className="strategy-header yellow-bg">
-              <p>Đại hội VIII xác định công nghiệp hóa, hiện đại hóa là nhiệm vụ trung tâm của thời kỳ quá độ, với các quan điểm cơ bản sau:</p>
-            </div>
+        {/* Strategy Section */}
+        <div className="part2-strategy-section">
+          <h2 className="part2-strategy-title">Quan điểm công nghiệp hóa - hiện đại hóa thời kỳ mới (Đại hội VIII)</h2>
+          
+          <div className="part2-strategy-intro">
+            <p>Đại hội VIII xác định công nghiệp hóa, hiện đại hóa là nhiệm vụ trung tâm của thời kỳ quá độ, với các quan điểm cơ bản sau:</p>
           </div>
 
-          <div className="sticky-notes-container">
-            {notes.map((note) => (
-              <div
-                key={note.id}
-                className="sticky-note-wrapper"
-                style={{
-                  animation: `fadeInUp 0.6s ease-out ${note.delay * 0.1}s both`,
-                }}
-              >
-                <div
-                  className="sticky-note"
-                  style={{
-                    transform: `rotate(${note.rotation}deg)`,
-                  }}
-                >
-                  {/* Pin */}
-                  <div className="sticky-pin">
-                    <div className="sticky-pin-head"></div>
-                    <div className="sticky-pin-line"></div>
-                  </div>
-
-                  {/* Note Content */}
-                  <div className="sticky-note-content">
-                    <p className="sticky-note-description">{note.description}</p>
-                  </div>
-
-                  {/* Decorative shadow */}
-                  <div className="sticky-note-shadow"></div>
+          <div className="part2-sticky-grid">
+            {strategyPoints.map((point) => (
+              <div key={point.id} className="part2-sticky-note">
+                <div className="part2-sticky-pin"></div>
+                <div className="part2-sticky-content">
+                  <div className="part2-sticky-number">{point.id}</div>
+                  <p>{point.text}</p>
                 </div>
               </div>
             ))}
           </div>
-        </section>
+        </div>
       </div>
     </>
   )

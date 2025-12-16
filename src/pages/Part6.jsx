@@ -6,8 +6,8 @@ export default function Part6() {
       <Header/>
       <div className="bg-white pt-24">
         {/* Header Section */}
-        <div className="pt-8 pb-4 px-4 md:px-8 max-w-6xl mx-auto">
-          <p className="text-sm font-bold text-gray-800 mb-2">PHẦN 6</p>
+        <div className="pt-8 pb-4 px-4 md:px-8 max-w-6xl mx-auto text-center">
+          <div className="inline-block bg-gradient-to-r from-red-600 to-red-700 text-white text-sm font-black px-7 py-2.5 rounded-full tracking-wider shadow-lg shadow-red-600/30 mb-4">PHẦN 6</div>
           <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight">
             HỆ THỐNG CHÍNH TRỊ, DÂN CHỦ<br />
             VÀ PHÁT TRIỂN CON NGƯỜI
