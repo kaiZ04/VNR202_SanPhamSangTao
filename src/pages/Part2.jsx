@@ -2,37 +2,37 @@ import Header from '../components/Header'
 
 export default function Part2() {
   const timelineItems = [
-    "Kinh tế đạc lập, làm chủ với CHXH, đạo lý, vững vàng dân tộc và ổn định chủ quyền quốc gia Đảng.",
-    "Đổi mới toàn diện những cơ trọng lĩnh vực theo mục tiêu và lộ trình trong tâm.",
-    "Phát triển kinh tế hồi thị trường xã hội, quản lý chuyền sâu theo những bước hiện tại vì, công pháp an ninh quốc.",
-    "Phát huy dân chủ kết toàn diện vào lực, nền mạnh cảnh cần.",
+    "Kiên định độc lập dân tộc gắn liền với CNXH, giữ vững vai trò lãnh đạo của Đảng.",
+    "Đổi mới toàn diện nhưng có trọng tâm, lấy đổi mới kinh tế làm trung tâm.",
+    "Phát triển kinh tế thị trường định hướng XHCN, gắn tăng trưởng với tiến bộ, công bằng xã hội.",
+    "Phát huy đại đoàn kết toàn dân tộc và sức mạnh con người.  ",
     "Mở rộng hợp tác quốc tế, kết hợp sức mạnh dân tộc với sức mạnh thời đại."
   ]
 
   const strategyPoints = [
     {
       id: 1,
-      text: "Giữ vững mục tiêu, độc lập dân tộc và CNXH, nắm vững hai nhiệm vụ chiến lược xây dựng và bảo vệ Tổ quốc, kiên trì chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh.",
+      text: "Giữ vững độc lập, tự chủ, đồng thời mở rộng hợp tác quốc tế; lấy nội lực là chính, kết hợp tranh thủ ngoại lực.",
     },
     {
       id: 2,
-      text: "CNHH tạo nghề phải giúp quan toán dân chủ, công mạng thâm phá trạch liên xử trong đổi khuân nóng của Nhà nước giải vọt.",
+      text: "CNH–HĐH là sự nghiệp của toàn dân, của mọi thành phần kinh tế; trong đó kinh tế nhà nước giữ vai trò chủ đạo.",
     },
     {
       id: 3,
-      text: "Con người là yếu tố cơ bản của phát triển nhanh và bền vững.",
+      text: "Con người là yếu tố cơ bản của phát triển nhanh và bền vững",
     },
     {
       id: 4,
-      text: "Khoa học – công nghệ là động lực then chốt, kết hợp truyền thống dân tộc với ứng dụng kỹ thêm hiện đại ủ khóa quyết định.",
+      text: "Khoa học – công nghệ là động lực then chốt, kết hợp truyền thống với hiện đại, đi nhanh vào hiện đại ở khâu quyết định.",
     },
     {
       id: 5,
-      text: "Lấy hiệu quả kinh tế - xã hội làm tiêu chuẩn Lựa chọn phương án phát triển và cộng nghệ.",
+      text: "Lấy hiệu quả kinh tế – xã hội làm tiêu chuẩn lựa chọn phương án phát triển và công nghệ.",
     },
     {
       id: 6,
-      text: "Kết hợp phát triển kinh tế với quốc phòng, an ninh, bảo đảm độc lập, chủ quyền và phúc lợi - an ninh.",
+      text: "Kết hợp phát triển kinh tế với quốc phòng, an ninh, bảo đảm ổn định chính trị – xã hội.",
     },
   ]
 
@@ -49,7 +49,7 @@ export default function Part2() {
         {/* Summary Box */}
         <div className="part2-summary-box">
           <p>
-            Sau 10 năm Đổi mới, đất nước đã đạt những thành tựu to lớn về mọi lĩnh vực kinh tế – xã hội nhờ đường lối đúng đắn của Đảng, sự nỗ lực phấn đấu của toàn dân tộc. Đất nước từ khó khăn đã có những chuyển biến tích cực, mở ra một thời kỳ mới đầy hy vọng và phát triển.</p>
+            Sau 10 năm Đổi mới, đất nước thoát khỏi khủng hoảng kinh tế – xã hội, đạt nhiều thành tựu quan trọng; con đường đi lên chủ nghĩa xã hội ngày càng rõ ràng, tạo tiền đề để chuyển sang thời kỳ đẩy mạnh công nghiệp hóa, hiện đại hóa. Tuy còn một số hạn chế, nhưng về tổng thể, đường lối Đổi mới là đúng đắn, phù hợp thực tiễn.</p>
         </div>
 
         {/* Timeline Section */}

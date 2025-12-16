@@ -3504,12 +3504,13 @@ main, section {
 .part2-sticky-content {
   position: relative;
   padding-top: 16px;
+  padding-right: 50px;
 }
 
 .part2-sticky-number {
   position: absolute;
-  top: -12px;
-  right: -8px;
+  top: 8px;
+  right: 8px;
   width: 40px;
   height: 40px;
   background: linear-gradient(135deg, #e92b2b 0%, #c41e1e 100%);
