@@ -609,28 +609,12 @@ export default function Review() {
             <h1 className="mindmap-title">SƠ ĐỒ TƯ DUY - ĐẠI HỘI VIII</h1>
           </div>
           <div className="mindmap-content">
-            <div className="mindmap-interactive">
-              {/* Level 1: Root Title */}
-              <div className="mindmap-center">
-                <div
-                  className={`mindmap-root ${showBranches ? 'active' : ''}`}
-                  onClick={handleRootClick}
-                >
-                  Đại hội VIII & Thời kì đẩy mạnh đổi mới
-                  <span className="expand-icon">{showBranches ? '▼' : '▶'}</span>
-                </div>
-              </div>
-
-              {/* Nested Branches - Recursive Rendering */}
-              {showBranches && (
-                <div className="mindmap-branches">
-                  {mindmapData.branches.map((branch) => (
-                    <div key={branch.id} className="mindmap-branch-wrapper">
-                      {renderNode(branch, 1)}
-                    </div>
-                  ))}
-                </div>
-              )}
+            <div className="mindmap-image-wrapper">
+              <img 
+                src="./assets/images/Quiz, mindmap- Linh.png" 
+                alt="Sơ đồ tư duy Đại hội VIII & Thời kì đẩy mạnh đổi mới" 
+                className="mindmap-image"
+              />
             </div>
           </div>
         </div>
